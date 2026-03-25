@@ -1,0 +1,7 @@
+interface:
+  display_name: "Course Topic Selector"
+  short_description: "Select market-fit course topics from source materials"
+  default_prompt: "Use $course-topic-selector to evaluate my source materials, compare market demand and competitors, and recommend the best course topic with backups, pricing, and course-readiness checks."
+
+policy:
+  allow_implicit_invocation: true
