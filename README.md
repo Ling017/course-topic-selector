@@ -1,15 +1,30 @@
 # Course Topic Selector
 
-`course-topic-selector` is a Codex skill for turning source materials into market-fit course topic decisions.
+[中文说明](./README.zh-CN.md)
 
-It is designed for cases where a user has notes, drafts, transcripts, outlines, books, or messy teaching materials and needs to answer:
+Turn source materials into **market-fit, evidence-bound course topic decisions**.
 
-- What course topic should this material become?
-- Which audience is most worth targeting?
-- What problem does the course actually solve?
-- How crowded is the market?
-- What competitors or substitutes already solve part of the problem?
-- Is the material strong enough to support a real course, or only a lighter product?
+Best for:
+- course topic selection from books, notes, drafts, transcripts, or archives
+- competitor analysis, audience targeting, pricing, and market positioning
+- deciding whether the material is strong enough to support a real course
+
+This skill is built to answer three hard questions quickly:
+- What is the best course topic this material can honestly support?
+- Why would users buy it instead of choosing a tool, free tutorial, or service?
+- Does the material have enough substance to support at least 3 meaningful lessons?
+
+## Quick Start
+
+```text
+Use $course-topic-selector to evaluate my source materials, compare market demand and competitors, and recommend the best course topic with backups, pricing, and course-readiness checks.
+```
+
+## At a Glance
+
+- Input: notes, drafts, transcripts, outlines, books, workshop materials
+- Output: `1 main + 2 backups`, competitor analysis, pricing, MVP scope, 7-day validation plan
+- Key gate: the material must be topic-ready and course-ready, not just packaging-ready
 
 ## What This Skill Does
 
@@ -121,12 +136,6 @@ course-topic-selector/
     ├── input-contract.md
     ├── market-analysis.md
     └── output-contract.md
-```
-
-## Example Prompt
-
-```text
-Use $course-topic-selector to evaluate my source materials, compare market demand and competitors, and recommend the best course topic with backups, pricing, and course-readiness checks.
 ```
 
 ## Example Use Cases
